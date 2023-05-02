@@ -48,11 +48,6 @@ p{
     text-align: center;
     color: #FFFFFF;
 }
-#cards{
-    display: flex;
-
-}
-
 h3{
     font-family: 'Verdana';
     font-style: normal;
@@ -62,7 +57,7 @@ h3{
     color: #F3C61F;
     margin-left: 90px;     
 }
-.card1{
+#card1{
     position: absolute;
     width: 204px;
     height: 204px;
@@ -70,14 +65,14 @@ h3{
     top: 790px;
 
 }
-.card2{
+#card2{
     position: absolute;
     width: 204px;
     height: 204px;
     left: 285px;
     top: 790px;
 }
-.card3{
+#card3{
     position: absolute;
     width: 204px;
     height: 204px;
@@ -85,7 +80,7 @@ h3{
     top: 790px;
 }
 
-.card4{
+#card4{
     position: absolute;
     width: 204px;
     height: 204px;
@@ -260,6 +255,8 @@ button{
 button:hover{
     cursor: pointer;
     color: #F3C61F;
-
+}
+.card-highlight{
+    box-shadow: 10px 10px grey;
 }
 
