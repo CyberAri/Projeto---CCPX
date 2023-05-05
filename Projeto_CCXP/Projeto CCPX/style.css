@@ -262,3 +262,20 @@ button:hover{
 .card-selected{
     border: 5px solid black;
 }
+input{
+    
+  background-color: #514988;
+  border-radius: 10px;
+  color: #FFFFFF;
+  border: 0px;
+  margin: 30px;
+  width: 300px;
+  height: 70px;
+  font-size: 30px;
+}
+form{
+    width: 1595px;
+    background-color: #F3C61F;
+    margin-bottom: 10px;
+    margin-top: 40px; 
+}
