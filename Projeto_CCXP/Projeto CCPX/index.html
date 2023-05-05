@@ -36,10 +36,10 @@
        
             <h3> AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h3>
         <div>  
-                <img class="card-highlight" src="img/imag1.svg" onmouseover="highlightCard('#quinta')"onmouseout="highlightCard('#quinta')" id="quinta" alt="">
-                <img class="card-highlight" src="img/imag2.svg" onmouseover="highlightCard('#sexta')" onmouseout="highlightCard('#sexta')" id="sexta" alt="">
-                <img class="card-highlight" src="img/imag3.svg" onmouseover="highlightCard('#sabado')" onmouseout="highlightCard('#sabado')" id="sabado" alt="">
-                <img class="card-highlight" src="img/imag4.svg" onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')" id="domingo" alt="">
+                <img class="card-highlight"  onclick="selectCard('#quinta')" src="img/imag1.svg" onmouseover="highlightCard('#quinta')"onmouseout="highlightCard('#quinta')" id="quinta" alt="">
+                <img class="card-highlight"  onclick="selectCard('#sexta')" src="img/imag2.svg" onmouseover="highlightCard('#sexta')" onmouseout="highlightCard('#sexta')" id="sexta" alt="">
+                <img class="card-highlight"  onclick="selectCard('#sabado')" src="img/imag3.svg" onmouseover="highlightCard('#sabado')" onmouseout="highlightCard('#sabado')" id="sabado" alt="">
+                <img class="card-highlight"  onclick="selectCard('#domingo')" src="img/imag4.svg" onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')" id="domingo" alt="">
         </div>
         
         <div id="timer">
@@ -70,6 +70,6 @@
         <div>
             <video width="700" controls loop><source src="video/Arlequina.mp4"type="video/mp4"></video>
         </div>
-        <button>GARANTA O SEU!</button>
+        <button onclick="showSelectedCards()">GARANTA O SEU!</button>
 </body>
 </html>
